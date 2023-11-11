@@ -10,6 +10,10 @@
 
 <script setup>
 const { product } = defineProps(['product'])
+
+useHead({
+  title: 'Nuxt Dojo | Merch'
+})
 </script>
 
 <style scoped>
